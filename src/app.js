@@ -39,7 +39,7 @@ app.get('/checking', (req, res) => {
 });
 
 app.get('/credit', (req, res) => {
-  res.render('credit',
+  res.render('account',
     {
       account: accounts.credit
     });
