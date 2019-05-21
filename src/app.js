@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
   res.render('index',
     {
       title: 'Accounts Summary',
-      accounts: accounts
+      accounts
     });
 });
 
